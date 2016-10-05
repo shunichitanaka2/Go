@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		CF7315FD1D9EA58100E35609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7315FC1D9EA58100E35609 /* AppDelegate.swift */; };
-		CF7315FF1D9EA58100E35609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7315FE1D9EA58100E35609 /* ViewController.swift */; };
+		CF7315FF1D9EA58100E35609 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7315FE1D9EA58100E35609 /* MainViewController.swift */; };
 		CF7316021D9EA58100E35609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7316001D9EA58100E35609 /* Main.storyboard */; };
 		CF7316051D9EA58100E35609 /* GoFresh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF7316031D9EA58100E35609 /* GoFresh.xcdatamodeld */; };
 		CF7316071D9EA58100E35609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7316061D9EA58100E35609 /* Assets.xcassets */; };
 		CF73160A1D9EA58100E35609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7316081D9EA58100E35609 /* LaunchScreen.storyboard */; };
 		CF7316151D9EA58100E35609 /* GoFreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7316141D9EA58100E35609 /* GoFreshTests.swift */; };
 		CF7316201D9EA58100E35609 /* GoFreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF73161F1D9EA58100E35609 /* GoFreshUITests.swift */; };
+		CF73162E1D9EB1CE00E35609 /* UINavigationCT.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF73162D1D9EB1CE00E35609 /* UINavigationCT.swift */; };
+		CF7316351D9F6B0B00E35609 /* berger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF7316301D9F6B0B00E35609 /* berger.jpg */; };
+		CF7316361D9F6B0B00E35609 /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF7316311D9F6B0B00E35609 /* coffee.jpg */; };
+		CF7316371D9F6B0B00E35609 /* shop02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF7316321D9F6B0B00E35609 /* shop02.jpg */; };
+		CF7316381D9F6B0B00E35609 /* xenlon01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF7316331D9F6B0B00E35609 /* xenlon01.jpg */; };
+		CF7316391D9F6B0B00E35609 /* xenlon02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF7316341D9F6B0B00E35609 /* xenlon02.jpg */; };
+		CF73163C1D9F99A200E35609 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF73163A1D9F99A200E35609 /* TableViewCell.swift */; };
+		CF73163D1D9F99A200E35609 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF73163B1D9F99A200E35609 /* TableViewCell.xib */; };
+		CF73163F1D9FA53400E35609 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF73163E1D9FA53400E35609 /* MapKit.framework */; };
+		CF7316411D9FAA5000E35609 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7316401D9FAA5000E35609 /* StoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +47,7 @@
 /* Begin PBXFileReference section */
 		CF7315F91D9EA58100E35609 /* GoFresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoFresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7315FC1D9EA58100E35609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF7315FE1D9EA58100E35609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF7315FE1D9EA58100E35609 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CF7316011D9EA58100E35609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF7316041D9EA58100E35609 /* GoFresh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoFresh.xcdatamodel; sourceTree = "<group>"; };
 		CF7316061D9EA58100E35609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +59,16 @@
 		CF73161B1D9EA58100E35609 /* GoFreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoFreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF73161F1D9EA58100E35609 /* GoFreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoFreshUITests.swift; sourceTree = "<group>"; };
 		CF7316211D9EA58100E35609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF73162D1D9EB1CE00E35609 /* UINavigationCT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationCT.swift; sourceTree = "<group>"; };
+		CF7316301D9F6B0B00E35609 /* berger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berger.jpg; sourceTree = "<group>"; };
+		CF7316311D9F6B0B00E35609 /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpg; sourceTree = "<group>"; };
+		CF7316321D9F6B0B00E35609 /* shop02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shop02.jpg; sourceTree = "<group>"; };
+		CF7316331D9F6B0B00E35609 /* xenlon01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xenlon01.jpg; sourceTree = "<group>"; };
+		CF7316341D9F6B0B00E35609 /* xenlon02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xenlon02.jpg; sourceTree = "<group>"; };
+		CF73163A1D9F99A200E35609 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CF73163B1D9F99A200E35609 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		CF73163E1D9FA53400E35609 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CF7316401D9FAA5000E35609 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF73163F1D9FA53400E35609 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +100,7 @@
 		CF7315F01D9EA58100E35609 = {
 			isa = PBXGroup;
 			children = (
+				CF73163E1D9FA53400E35609 /* MapKit.framework */,
 				CF7315FB1D9EA58100E35609 /* GoFresh */,
 				CF7316131D9EA58100E35609 /* GoFreshTests */,
 				CF73161E1D9EA58100E35609 /* GoFreshUITests */,
@@ -99,13 +121,18 @@
 		CF7315FB1D9EA58100E35609 /* GoFresh */ = {
 			isa = PBXGroup;
 			children = (
+				CF73162F1D9F6AE500E35609 /* Picture */,
 				CF7315FC1D9EA58100E35609 /* AppDelegate.swift */,
-				CF7315FE1D9EA58100E35609 /* ViewController.swift */,
+				CF7315FE1D9EA58100E35609 /* MainViewController.swift */,
 				CF7316001D9EA58100E35609 /* Main.storyboard */,
 				CF7316061D9EA58100E35609 /* Assets.xcassets */,
 				CF7316081D9EA58100E35609 /* LaunchScreen.storyboard */,
 				CF73160B1D9EA58100E35609 /* Info.plist */,
 				CF7316031D9EA58100E35609 /* GoFresh.xcdatamodeld */,
+				CF73162D1D9EB1CE00E35609 /* UINavigationCT.swift */,
+				CF73163A1D9F99A200E35609 /* TableViewCell.swift */,
+				CF73163B1D9F99A200E35609 /* TableViewCell.xib */,
+				CF7316401D9FAA5000E35609 /* StoreViewController.swift */,
 			);
 			path = GoFresh;
 			sourceTree = "<group>";
@@ -126,6 +153,18 @@
 				CF7316211D9EA58100E35609 /* Info.plist */,
 			);
 			path = GoFreshUITests;
+			sourceTree = "<group>";
+		};
+		CF73162F1D9F6AE500E35609 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				CF7316301D9F6B0B00E35609 /* berger.jpg */,
+				CF7316311D9F6B0B00E35609 /* coffee.jpg */,
+				CF7316321D9F6B0B00E35609 /* shop02.jpg */,
+				CF7316331D9F6B0B00E35609 /* xenlon01.jpg */,
+				CF7316341D9F6B0B00E35609 /* xenlon02.jpg */,
+			);
+			name = Picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +271,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7316361D9F6B0B00E35609 /* coffee.jpg in Resources */,
+				CF7316391D9F6B0B00E35609 /* xenlon02.jpg in Resources */,
+				CF7316371D9F6B0B00E35609 /* shop02.jpg in Resources */,
+				CF7316351D9F6B0B00E35609 /* berger.jpg in Resources */,
+				CF73163D1D9F99A200E35609 /* TableViewCell.xib in Resources */,
 				CF73160A1D9EA58100E35609 /* LaunchScreen.storyboard in Resources */,
 				CF7316071D9EA58100E35609 /* Assets.xcassets in Resources */,
 				CF7316021D9EA58100E35609 /* Main.storyboard in Resources */,
+				CF7316381D9F6B0B00E35609 /* xenlon01.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7315FF1D9EA58100E35609 /* ViewController.swift in Sources */,
+				CF73163C1D9F99A200E35609 /* TableViewCell.swift in Sources */,
+				CF73162E1D9EB1CE00E35609 /* UINavigationCT.swift in Sources */,
+				CF7316411D9FAA5000E35609 /* StoreViewController.swift in Sources */,
+				CF7315FF1D9EA58100E35609 /* MainViewController.swift in Sources */,
 				CF7316051D9EA58100E35609 /* GoFresh.xcdatamodeld in Sources */,
 				CF7315FD1D9EA58100E35609 /* AppDelegate.swift in Sources */,
 			);
@@ -403,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = GoFresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.gofresh.shunichi.tanaka.GoFresh;
@@ -414,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = GoFresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.gofresh.shunichi.tanaka.GoFresh;
